@@ -1,10 +1,13 @@
 @article{oliveira2020weakly,
-  title={Weakly-Supervised Classification of HER2 Expression in Breast Cancer Haematoxylin and Eosin Stained Slides},
-  author={Oliveira, Sara P and Ribeiro Pinto, Jo{\~a}o and Gon{\c{c}}alves, Tiago and Canas-Marques, Rita and Cardoso, Maria-Jo{\~a}o and Oliveira, H{\'e}lder P and Cardoso, Jaime S},
-  journal={Applied Sciences},
-  volume={10},
-  number={14},
-  pages={4728},
-  year={2020},
-  publisher={Multidisciplinary Digital Publishing Institute}
+    AUTHOR = {Oliveira, Sara P. and Ribeiro Pinto, João and Gonçalves, Tiago and Canas-Marques, Rita and Cardoso, Maria-João and Oliveira, Hélder P. and Cardoso, Jaime S.},
+    TITLE = {Weakly-Supervised Classification of HER2 Expression in Breast Cancer Haematoxylin and Eosin Stained Slides},
+    JOURNAL = {Applied Sciences},
+    VOLUME = {10},
+    YEAR = {2020},
+    NUMBER = {14},
+    ARTICLE-NUMBER = {4728},
+    URL = {https://www.mdpi.com/2076-3417/10/14/4728},
+    ISSN = {2076-3417},
+    ABSTRACT = {Human epidermal growth factor receptor 2 (HER2) evaluation commonly requires immunohistochemistry (IHC) tests on breast cancer tissue, in addition to the standard haematoxylin and eosin (H&amp;E) staining tests. Additional costs and time spent on further testing might be avoided if HER2 overexpression could be effectively inferred from H&amp;E stained slides, as a preliminary indication of the IHC result. In this paper, we propose the first method that aims to achieve this goal. The proposed method is based on multiple instance learning (MIL), using a convolutional neural network (CNN) that separately processes H&amp;E stained slide tiles and outputs an IHC label. This CNN is pretrained on IHC stained slide tiles but does not use these data during inference/testing. H&amp;E tiles are extracted from invasive tumour areas segmented with the HASHI algorithm. The individual tile labels are then combined to obtain a single label for the whole slide. The network was trained on slides from the HER2 Scoring Contest dataset (HER2SC) and tested on two disjoint subsets of slides from the HER2SC database and the TCGA-TCIA-BRCA (BRCA) collection. The proposed method attained 83.3 % classification accuracy on the HER2SC test set and 53.8 % on the BRCA test set. Although further efforts should be devoted to achieving improved performance, the obtained results are promising, suggesting that it is possible to perform HER2 overexpression classification on H&amp;E stained tissue slides.},
+    DOI = {10.3390/app10144728}
 }
