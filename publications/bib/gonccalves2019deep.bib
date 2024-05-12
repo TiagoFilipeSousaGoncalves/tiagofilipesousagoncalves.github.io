@@ -1,8 +1,12 @@
-@inproceedings{gonccalves2019deep,
-  title={Deep Aesthetic Assessment of Breast Cancer Surgery Outcomes},
-  author={Gon{\c{c}}alves, Tiago and Silva, Wilson and Cardoso, Jaime},
-  booktitle={Mediterranean Conference on Medical and Biological Engineering and Computing},
-  pages={1967--1983},
-  year={2019},
-  organization={Springer}
+@InProceedings{gonccalves2019deep,
+author={Gon{\c{c}}alves, Tiago and Silva, Wilson and Cardoso, Jaime},
+editor={Henriques, Jorge and Neves, Nuno and de Carvalho, Paulo},
+title={{Deep Aesthetic Assessment of Breast Cancer Surgery Outcomes}},
+booktitle={{XV Mediterranean Conference on Medical and Biological Engineering and Computing -- MEDICON 2019}},
+year={2020},
+publisher={{Springer International Publishing}},
+address={Cham},
+pages={1967--1983},
+abstract={{Breast cancer is a highly mutable and rapidly evolving disease, with a large worldwide incidence. Even though, it is estimated that approximately 90{\%} of the cases are treatable and curable if detected on early staging and given the best treatment. Nowadays, with the existence of breast cancer routine screening habits, better clinical treatment plans and proper management of the disease, it is possible to treat most cancers with conservative approaches, also known as breast cancer conservative treatments (BCCT). With such a treatment methodology, it is possible to focus on the aesthetic results of the surgery and the patient's Quality of Life, which may influence BCCT outcomes. In the past, this assessment would be done through subjective methods, where a panel of experts would be needed to perform the assessment; however, with the development of computer vision techniques, objective methods, such as BAT{\textcopyright} and BCCT.core, which perform the assessment based on asymmetry measurements, have been used. On the other hand, they still require information given by the user and none of them has been considered the gold standard for this task. Recently, with the advent of deep learning techniques, algorithms capable of improving the performance of traditional methods on the detection of breast fiducial points (required for asymmetry measurements) have been proposed and showed promising results. There is still, however, a large margin for investigation on how to integrate such algorithms in a complete application, capable of performing an end-to-end classification of the BCCT outcomes. Taking this into account, this thesis shows a comparative study between deep convolutional networks for image segmentation and two different quality-driven keypoint detection architectures for the detection of the breast contour. One that uses a deep learning model that has learned to predict the quality (given by the mean squared error) of an array of keypoints, and, based on this quality, applies the backpropagation algorithm, with gradient descent, to improve them; another which uses a deep learning model which was trained with the quality as a regularization method and that used iterative refinement, in each training step, to improve the quality of the keypoints that were fed into the network. Although none of the methods surpasses the current state of the art, they present promising results for the creation of alternative methodologies to address other regression problems in which the learning of the quality metric may be easier. Following the current trend in the field of web development and with the objective of transferring BCCT.core to an online format, a prototype of a web application for the automatic keypoint detection was developed and is presented in this document. Currently, the user may upload an image and automatically detect and/or manipulate its keypoints. This prototype is completely scalable and can be upgraded with new functionalities according to the user's needs.}},
+isbn={978-3-030-31635-8}
 }
